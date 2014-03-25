@@ -21,6 +21,10 @@
 # *********************************************************************************************
 
 ---
+# PECOS
 PECOSLogin: 'http://ffx-pecos-srv02:9080/pecosai/login.action'
 PECOSWelcome: 'http://ffx-pecos-srv02:9080/pecosai/welcome.action'
 PECOSBaseSearch: 'http://ffx-pecos-srv02:9080/pecosai/baseSearch.action'
+
+# Medicare.Gov
+MedicareGovHome: 'http://medicare.gov'
