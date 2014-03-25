@@ -1,0 +1,22 @@
+# This file is used to manage some global settings for your test project. 
+# This file must be valid YAML
+# You can read about YAML syntax here: http://www.ansibleworks.com/docs/YAMLSyntax.html
+# This YAML checker may come in handy too: http://yamllint.com/
+# *********************************************************************************************
+
+---
+DEFAULT_DATE_FORMAT: mm/dd/yyyy # Supports any combination of mm, dd, yyyy or yy Set a default format for date helpers to be used in expressions like "Today's Date" in the framework..
+DEFAULT_ENVIRONMENT: Production #The default environment tests will be run against when none is supplied
+MAX_WAIT_TIME: 2  #seconds. When a test fails because of a potential issue with DOM loading, the framework will retry running the test for this much time. If your application is slow, feel free to increase this time and see if it reduces failures. 
+MIN_WAIT_TIME: 0  #seconds. Used when validating absence of a DOM element, typically this is shorter than the default wait time, since we don't want to wait too long for elements we are not expecting will be present
+WAIT_FOR_PAGE_LOAD: 0 #seconds. Wait for so many seconds everytime a new page is loaded
+SCREEN_SIZE: Desktop # also accepts values like Tablet, SmartPhone
+DRIVER: selenium #change this to phantomjs to run in headless mode, other options include: chrome, sauce
+MODE: REGULAR #change this to DEBUG to see detailed console output
+PROJECT_NAME: MyProject #shows up on Sauce Labs as job name, along with the environment
+
+#TODO: Allow testers to manage test cases in Common: Runs in all resolutions
+#Desktop: Run in Desktop only
+#Tablet: Run in Tablet Only
+#SmartPhone: Run on SmartPhones Only
+

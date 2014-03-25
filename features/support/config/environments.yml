@@ -1,0 +1,10 @@
+# This file is used to manage some global settings for your test project. 
+# This file must be valid YAML
+# You can read about YAML syntax here: http://www.ansibleworks.com/docs/YAMLSyntax.html
+# This YAML checker may come in handy too: http://yamllint.com/
+# *********************************************************************************************
+
+---
+Production: ""
+Test: ""
+Dev: ""
