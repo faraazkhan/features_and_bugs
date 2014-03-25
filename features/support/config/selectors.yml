@@ -44,3 +44,4 @@
 
 ---
 PECOSSearchButton: "xpath://ul[@class='tabGroup']//a[normalize-space(.)='Search Tab']"
+lastLetter: "css:#ctl00_ContentPlaceHolder1_ctl01_ForgotUserName_ddlHICN_ddSuffix"
