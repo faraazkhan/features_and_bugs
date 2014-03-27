@@ -17,4 +17,3 @@ Feature: Sample AI Test steps - Steps for AI interactions
     And I click the "PECOSSearchButton" button
     Then I should be on the "PECOSBaseSearch" page
     Then I should see "Main Search"
-
