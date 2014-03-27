@@ -1,7 +1,7 @@
 Feature: To be able to verify the "radio" button being selected
 
 Scenario: radio button verification
-Given I am on the "home" page
+Given I am on the "NurHome" page
 And I maximize the window
 When I key in "22033" in the "Location" field
 And I click the "Search" button
