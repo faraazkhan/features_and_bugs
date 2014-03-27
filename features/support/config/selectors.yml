@@ -45,3 +45,6 @@
 ---
 PECOSSearchButton: "xpath://ul[@class='tabGroup']//a[normalize-space(.)='Search Tab']"
 lastLetter: "css:#ctl00_ContentPlaceHolder1_ctl01_ForgotUserName_ddlHICN_ddSuffix"
+firstThree: "css:[title='First three digits of Medicare Number']"
+nextTwo: "css:[title='Fourth and fifth digits of Medicare Number']"
+lastFour: "css:[title='Sixth through ninth digits of Medicare Number']"
