@@ -3,7 +3,6 @@ Feature: testing auf-115
 #JIRAID: MBP-4153 
 #auf-115
 
-	
 Scenario: User goes thorugh forgot username workflow with deactivated account and will receive error message	\
 	Given I am on the "forgotUsername" page
 	And I fill in "firstThree" with "MBP"
