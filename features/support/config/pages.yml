@@ -26,5 +26,11 @@ PECOSLogin: 'http://ffx-pecos-srv02:9080/pecosai/login.action'
 PECOSWelcome: 'http://ffx-pecos-srv02:9080/pecosai/welcome.action'
 PECOSBaseSearch: 'http://ffx-pecos-srv02:9080/pecosai/baseSearch.action'
 
+PECOShome: 'http://hpmsbeta-web/app/Login.aspx'
+
 # Medicare.Gov
 MedicareGovHome: 'http://medicare.gov'
+PHYHome: 'http://www.medicare.gov/physiciancompare/search.html'
+NurHome: 'http://medicare-iterationb2-test.cgifederal.com/homehealthcompare'
+
+UPLDHome: 'https://www.sendspace.com/'
