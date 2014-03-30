@@ -3,4 +3,5 @@ Feature: Verify that all references to CSS Files and Images on a given page are 
 
   Scenario: Assets on Medicare.gov Home Page
     Given I am on the "MedicareGovHome" page
-    Then I should see that all asset references return a valid http code
+    Then I should see that all asset references on the page are valid
+    And I should see that all links on the page are valid
