@@ -48,3 +48,4 @@ lastLetter: "css:#ctl00_ContentPlaceHolder1_ctl01_ForgotUserName_ddlHICN_ddSuffi
 firstThree: "css:[title='First three digits of Medicare Number']"
 nextTwo: "css:[title='Fourth and fifth digits of Medicare Number']"
 lastFour: "css:[title='Sixth through ninth digits of Medicare Number']"
+PlanBidsMenu: "css:"

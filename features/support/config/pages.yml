@@ -31,7 +31,8 @@ PECOShome: 'http://hpmsbeta-web/app/Login.aspx'
 # Medicare.Gov
 MedicareGovHome: 'http://medicare.gov'
 PHYHome: 'http://www.medicare.gov/physiciancompare/search.html'
-NurHome: 'http://medicare-iterationb2-test.cgifederal.com/homehealthcompare'
+NurHome: 'http://medicare-iterationb2-test.cgifederal.com/NursingHomeCompare'
 
 UPLDHome: 'https://www.sendspace.com/'
 forgotUsername: 'https://mymedicare.gov/forgotsigninid.aspx'
+CMSTestUpload: 'http://cmstestframework.herokuapp.com/form/page'

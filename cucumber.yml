@@ -12,7 +12,7 @@
 #
 # *********************************************************************************************
 <% common = '-r features/support features --format html -o results.html' %>
-<% without_wip = '--tags ~@wip' %>
+<% without_wip = '--tags ~@wip --tags ~@pending' %>
 default: <%= common %> <%= without_wip %>
 production: ENVIRONMENT=Production <%= common %> <%= without_wip%>
 test: ENVIRONMENT=Test <%= common %> <%= without_wip%>

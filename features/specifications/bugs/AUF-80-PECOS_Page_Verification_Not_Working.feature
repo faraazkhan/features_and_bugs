@@ -1,3 +1,4 @@
+@bug
 Feature: Sample AI Test steps - Steps for AI interactions
   See organization documentation in: specifications/SearchFacilities[SANDBOX-1866]/SearchByLocation
   See available steps by running cafe "document[html]" on the command line
