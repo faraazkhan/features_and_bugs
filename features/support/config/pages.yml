@@ -29,7 +29,7 @@ PECOSBaseSearch: 'http://ffx-pecos-srv02:9080/pecosai/baseSearch.action'
 PECOShome: 'http://hpmsbeta-web/app/Login.aspx'
 
 # Medicare.Gov
-MedicareGovHome: 'http://medicare.gov'
+MedicareGovHome: 'http://qa.medicare.gov'
 PHYHome: 'http://www.medicare.gov/physiciancompare/search.html'
 NurHome: 'http://medicare-iterationb2-test.cgifederal.com/NursingHomeCompare'
 
@@ -37,3 +37,4 @@ UPLDHome: 'https://www.sendspace.com/'
 forgotUsername: 'https://mymedicare.gov/forgotsigninid.aspx'
 CMSTestUpload: 'http://cmstestframework.herokuapp.com/form/page'
 MedicalLossRatio: 'http://hpmsbeta-web/app/MLRNet/MLRHome.aspx?PI=142800000000'
+PhysicianHome: 'http://medicare.gov/physiciancompare/search.html'
