@@ -30,6 +30,7 @@ PECOShome: 'http://hpmsbeta-web/app/Login.aspx'
 
 # Medicare.Gov
 MedicareGovHome: 'http://qa.medicare.gov'
+Medicare404: 'http://qa.medicare.gov/hospitalcompare/results.html#loc=22033&lat=38.8735614&lng=-77.3898602'
 PHYHome: 'http://www.medicare.gov/physiciancompare/search.html'
 NurHome: 'http://medicare-iterationb2-test.cgifederal.com/NursingHomeCompare'
 
