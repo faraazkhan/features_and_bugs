@@ -6,12 +6,12 @@
 
 ---
 DEFAULT_DATE_FORMAT: mm/dd/yyyy # Supports any combination of mm, dd, yyyy or yy Set a default format for date helpers to be used in expressions like "Today's Date" in the framework..
-DEFAULT_ENVIRONMENT: Production #The default environment tests will be run against when none is supplied
-MAX_WAIT_TIME: 2  #seconds. When a test fails because of a potential issue with DOM loading, the framework will retry running the test for this much time. If your application is slow, feel free to increase this time and see if it reduces failures. 
-MIN_WAIT_TIME: 0  #seconds. Used when validating absence of a DOM element, typically this is shorter than the default wait time, since we don't want to wait too long for elements we are not expecting will be present
-WAIT_FOR_PAGE_LOAD: 0 #seconds. Wait for so many seconds everytime a new page is loaded
+DEFAULT_ENVIRONMENT: CWSLampDev #The default environment tests will be run against when none is supplied
+MAX_WAIT_TIME: 20 #seconds. When a test fails because of a potential issue with DOM loading, the framework will retry running the test for this much time. If your application is slow, feel free to increase this time and see if it reduces failures. 
+WAIT_FOR_PAGE_LOAD: 15 #seconds. No. of seconds to wait after an expected redirect
+MIN_WAIT_TIME: 10  #seconds. Used when validating absence of a DOM element, typically this is shorter than the default wait time, since we don't want to wait too long for elements we are not expecting will be present
 SCREEN_SIZE: Desktop # also accepts values like Tablet, SmartPhone
-DRIVER: selenium #change this to phantomjs to run in headless mode, other options include: chrome, sauce
+DRIVER: chrome #change this to phantomjs to run in headless mode, other options include: chrome, sauce, selenium
 MODE: REGULAR #change this to DEBUG to see detailed console output
 PROJECT_NAME: MyProject #shows up on Sauce Labs as job name, along with the environment
 
@@ -19,4 +19,12 @@ PROJECT_NAME: MyProject #shows up on Sauce Labs as job name, along with the envi
 #Desktop: Run in Desktop only
 #Tablet: Run in Tablet Only
 #SmartPhone: Run on SmartPhones Only
-
+DATABASE_TYPE: sql_server  #can be sql_server or oracle
+DESKTOP_MAX_HEIGHT: 980
+DESKTOP_MAX_WIDTH: 1400
+MOBILE_MAX_HEIGHT: 768
+MOBILE_MAX_WIDTH: 362
+TABLET_MAX_HEIGHT: 868
+TABLET_MAX_WIDTH: 814
+LANDSCAPE_MAX_HEIGHT: 362
+LANDSCAPE_MAX_WIDTH: 522

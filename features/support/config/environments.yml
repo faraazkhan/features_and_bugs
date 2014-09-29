@@ -5,6 +5,15 @@
 # *********************************************************************************************
 
 ---
-Production: ""
-Test: ""
-Dev: ""
+Production: "http://qa.medicare.gov/DialysisFacilityCompare/"
+QA: "http://qa.medicare.gov/DialysisFacilityCompareNew/"
+CWSLampDev: "http://medicare-lampdev.cgifederal.com/dialysisfacilitycompare/"
+CWSLamp: "http://medicare-lamp.cgifederal.com/dialysisfacilitycompare/"
+CWSLampPAS: "http://medicare-lamp.cgifederal.com/dialysisfacilitycompare/"
+Local: "http://localhost:9000/"
+Itb2: "http://medicare-iterationb2-test.cgifederal.com/dialysisfacilitycompare/"
+MyMedicare: "https://mymedicare.gov/"
+
+Physician: "http://medicare.gov/physiciancompare/search.html"
+
+

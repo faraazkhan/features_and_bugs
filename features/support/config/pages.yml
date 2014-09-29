@@ -20,22 +20,144 @@
 # This YAML checker may come in handy too: http://yamllint.com/
 # *********************************************************************************************
 
----
-# PECOS
-PECOSLogin: 'http://ffx-pecos-srv02:9080/pecosai/login.action'
-PECOSWelcome: 'http://ffx-pecos-srv02:9080/pecosai/welcome.action'
-PECOSBaseSearch: 'http://ffx-pecos-srv02:9080/pecosai/baseSearch.action'
+home: ''
+BackToHome: '#'
+StartNewSearch: "#search"
+#AboutDialysisFacilityCompare: 
+#AboutTheData: 
+#Resources: 
+#Help: 
 
-PECOShome: 'http://hpmsbeta-web/app/Login.aspx'
+DFCCompare: "http://medicare-lampdev.cgifederal.com/dialysisfacilitycompare/"
 
-# Medicare.Gov
-MedicareGovHome: 'http://qa.medicare.gov'
-Medicare404: 'http://qa.medicare.gov/hospitalcompare/results.html#loc=22033&lat=38.8735614&lng=-77.3898602'
-PHYHome: 'http://www.medicare.gov/physiciancompare/search.html'
-NurHome: 'http://medicare-iterationb2-test.cgifederal.com/NursingHomeCompare'
+#Results Pages
+VAsearchresultslistview: "#results&type=ST&loc=VIRGINIA&sort=1%7CASC&state=VA&dist=0&paging=1&"
+VAsearchresultsmapview: "#results&type=ST&viewmaps=true&loc=VIRGINIA&sort=1%7CASC&state=VA&dist=0&paging=1&"
+20176Results: "#results&type=ZIP&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=1&"
+20176ResultsMapView: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=1&"
+19963Results: "#results&type=ZIP&loc=19963&lat=38.9340074&lng=-75.3878525&sort=12%7CASC&dist=0&paging=1&"
+19963MEDICALResults: "#results&type=ZIP&loc=19963&lat=38.9340074&lng=-75.3878525&sort=12%7CASC&dist=25&name=MEDICAL&paging=1&"
+50316Results: "#results&type=ZIP&loc=50316&lat=41.6099344&lng=-93.596457&sort=12%7CASC&dist=0&paging=1&"
+50316ResultsBacktoResultsButton: "#results&type=ZIP&loc=50316&lat=41.6099344&lng=-93.596457&sort=12%7CASC&dist=25&cmpids=162533%2C162532%2C162501&paging=1&"
+50316ResultsPartialName: "#results&type=ZIP&loc=50316&lat=41.6099344&lng=-93.596457&sort=12%7CASC&dist=25&name=di&paging=1&"
+56001Results: "#results&type=ZIP&loc=56001&lat=44.1223003&lng=-93.9674371&sort=12%7CASC&dist=0&paging=1&"
+58801Results: "#results&type=ZIP&loc=58801&lat=48.2931122&lng=-103.7750537&sort=12%7CASC&dist=0&paging=1&"
+99701Results: "#results&type=ZIP&loc=99701&lat=67.1917558&lng=-149.1671524&sort=12%7CASC&dist=0&paging=1&"
+10013Results: "#results&type=ZIP&loc=10013&lat=40.7217861&lng=-74.0094471&sort=12%7CASC&dist=0&paging=1&"
+10013ResultsListView: "#results&type=ZIP&loc=10013&lat=40.7217861&lng=-74.0094471&sort=12%7CASC&dist=0&paging=1&"
+10013ResultsMapView: "#results&type=ZIP&viewmaps=true&loc=10013&lat=40.7217861&lng=-74.0094471&sort=12%7CASC&dist=0&paging=1&"
+10013ResultsFromChinatownProfile: "#results&loc=10013&lat=40.7217861&lng=-74.0094471&dist=0&pid=332607&paging=1&"  
+82716Results: "#results&type=ZIP&loc=82716&lat=44.4524167&lng=-105.582806&sort=12%7CASC&dist=0&paging=1&"
+90001Results: "#results&type=ZIP&loc=90001&lat=33.9697897&lng=-118.2468148&sort=12%7CASC&dist=0&paging=1&"
+90001ResultsFromProfile: "#results&type=ZIP&loc=90001&lat=33.9697897&lng=-118.2468148&sort=12%7CASC&dist=0&pid=552667&paging=1&"
+AtlantaGAResults: "#results&type=CS&loc=ATLANTA%2C%20GA&lat=33.7489954&lng=-84.3879824&sort=12%7CASC&dist=0&paging=1&"
+AlaskaResults: "#results&type=st&loc=alaska&sort=1%7casc&state=ak&dist=0&paging=1&" 
+AlaskaFMCResults: "#results&type=ZIP&loc=ALASKA&sort=1%7CASC&state=AK&dist=25&name=fmc&paging=1&"
+BirminghamALResults: "#results&type=CS&loc=BIRMINGHAM%2C%20AL&lat=33.5206608&lng=-86.80249&sort=12%7CASC&dist=0&paging=1&"
+BirminghamALResultsPartialName: "#results&type=CS&loc=BIRMINGHAM%2C%20AL&lat=33.5206608&lng=-86.80249&sort=12%7CASC&dist=25&name=fm&paging=1&"
+CaliforniaResults: "#results&type=ST&loc=CALIFORNIA&sort=1%7CASC&state=CA&dist=0&paging=1&"
+ChicagoILResults: "#results&type=CS&loc=CHICAGO%2C%20IL&lat=41.8781136&lng=-87.6297982&sort=12%7CASC&dist=0&paging=1&"
+ChicagoILResultsFromComparePage: "#results&type=CS&loc=CHICAGO%2C%20IL&lat=41.8781136&lng=-87.6297982&sort=12%7CASC&dist=0&cmpids=142534%2C142529%2C142604&paging=1&"
+DesMoinesIAResults: "#results&type=CS&loc=DES%20MOINES%2C%20IA&lat=41.6005448&lng=-93.6091064&sort=12%7CASC&dist=0&paging=1&"
+DesMoinesIADIALYSISResults: "#results&type=ZIP&loc=DES%20MOINES%2C%20IA&lat=41.6005448&lng=-93.6091064&sort=12%7CASC&dist=25&name=dialysis&paging=1&"
+FairBanksAKResults: "##results&type=CS&loc=FAIRBANKS%2C%20AK&lat=64.8377778&lng=-147.7163889&sort=12%7CASC&dist=0&paging=1&"
+LosAngelesCAResults: "#results&type=CS&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&sort=12%7CASC&dist=0&paging=1&"
+LosAngelesCAResultsListview: "#results&type=CS&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&sort=12%7CASC&dist=0&paging=1&"
+LosAngelesCAResultsMapview: "#results&type=CS&viewmaps=true&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&sort=12%7CASC&dist=0&paging=1&"
+LosAngelesCAResultsFromProfile: "#results&type=CS&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&sort=12%7CASC&dist=0&pid=052631&paging=1&"
+MankatoMNResults: "#results&type=CS&loc=MANKATO%2C%20MN&lat=44.1635775&lng=-93.9993996&sort=12%7CASC&dist=0&paging=1&"
+NewYorkNYResults: "#results&type=CS&loc=NEW%20YORK%2C%20NY&lat=40.7143528&lng=-74.0059731&sort=12%7CASC&dist=0&paging=1&"
+NewYorkResults: "#results&type=ST&loc=NEW%20YORK&sort=1%7CASC&state=NY&dist=0&paging=1&"
+NewYorkResultsListView: "#results&type=ST&loc=NEW%20YORK&sort=1%7CASC&state=NY&dist=0&paging=1&"
+NewYorkResultsMapView: "#results&type=ST&viewmaps=true&loc=NEW%20YORK&sort=1%7CASC&state=NY&dist=0&paging=1&"
+NewYorkResultsPartialName: "#results&type=st&loc=new%20york&sort=1%7casc&state=ny&dist=25&name=ba&paging=1&"
+NewYorkNYResultsListView: "#results&type=CS&loc=NEW%20YORK%2C%20NY&lat=40.7143528&lng=-74.0059731&sort=12%7CASC&dist=0&paging=1&"
+NewYorkResultsNYMapView: "#results&type=CS&viewmaps=true&loc=NEW%20YORK%2C%20NY&lat=40.7143528&lng=-74.0059731&sort=12%7CASC&dist=0&paging=1&"
+PuertoRicoResults: "#results&type=ZIP&loc=PUERTO%20RICO&sort=1%7CASC&state=PR&dist=25&paging=1&"
+RozetWYResults: "#results&type=CS&loc=ROZET%2C%20WY&lat=44.2780362&lng=-105.2060973&sort=12%7CASC&dist=0&paging=1&"
+VirginiaFMCResults: "#results&type=ST&loc=VIRGINIA&sort=1%7CASC&state=VA&dist=25&name=fmc&paging=1&"
+WilshireDialysisCenter: "#profile&pid=052631&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&previouspage=results&"
+ZahlNDResults: "#results&type=cs&loc=zahl%2c%20nd&lat=48.5733612&lng=-103.6921433&sort=12%7casc&dist=0&paging=1&"
+Page2map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=50&paging=1&"
+Page3map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=50&paging=1&"
+FairfaxVAResults: "#results&type=CS&loc=FAIRFAX%2C%20VA&lat=38.8462236&lng=-77.3063733&sort=12%7CASC&dist=0&paging=1&"
+Page2map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=2&"
+Page3map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=3&"
+LastpageMapView: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=5&"
+LeesburgVADFCProfileBTPtab: "#profile&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&profTab=1&"
+LeesburgVADFCProfileHPtab: "#profile&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&profTab=2&"
+MBPlampdevresults: "#results&type=ZIP&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=1&guid=0da1a2d5b32f43f083980706e448ff35778773131440&"
+MBPlampdevsearch: "#search&guid=82a054888bbf4e00a3b91d0db27daacc779637501027"
+MBPlampdevresultsFav: "#results&type=ZIP&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=1&guid=82a054888bbf4e00a3b91d0db27daacc779637501027&"
+#MBPlampdevresultsFav: "#results&type=ZIP&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=1&"
 
-UPLDHome: 'https://www.sendspace.com/'
-forgotUsername: 'https://mymedicare.gov/forgotsigninid.aspx'
-CMSTestUpload: 'http://cmstestframework.herokuapp.com/form/page'
-MedicalLossRatio: 'http://hpmsbeta-web/app/MLRNet/MLRHome.aspx?PI=142800000000'
-PhysicianHome: 'http://medicare.gov/physiciancompare/search.html'
+
+
+#Compare Pages
+AntelopeValleyAndAuburnDialysisCompareGeneralTab: "#compare&cmpids=552593%2C052614&loc=CALIFORNIA&state=CA&"
+ChinatownDialysisAndSManhattanAndBethIsraelCompareGeneralTab: "#compare&cmpids=332607%2C332530%2C333524&loc=10013&lat=40.7217861&lng=-74.0094471&"
+ChinatownDialysisAndSManhattanAndBethIsraelComparePageFromProfilePage: "#compare&cmpids=332607%2C332530%2C333524&pid=332530&loc=10013&lat=40.7217861&lng=-74.0094471&previouspage=compare&"
+DavitaLoganSquareAndEmeraldDialysisAndChildrenDialysisCompareGeneralTab: "#compare&cmpids=142534%2C142529%2C142604&loc=CHICAGO%2C%20IL&lat=41.8781136&lng=-87.6297982&"
+DavitaLoganSquareAndEmeraldDialysisAndChildrenDialysisComparePageFromProfilePage: "#compare&cmpids=142534%2C142529%2C142604&pid=142534&loc=CHICAGO%2C%20IL&lat=41.8781136&lng=-87.6297982&previouspage=compare&"
+DoctorsDialysisAndTowerDialysisAndUniversityParkCompareGeneralTab: "#compare&cmpids=052725%2C052643%2C052713&loc=LOS%20ANGELES%2C%20CA&lat=34.0522342&lng=-118.2436849&"
+EastDesMoinesAndFreseniusMedicalCompareGeneralTab: "#compare&cmpids=162533%2C162532&loc=50316&lat=41.6099344&lng=-93.596457&"
+EastDesMoinesAndFreseniusMedicalAndCentralDesMoinesCompareGeneralTab: "#compare&cmpids=162533%2C162532%2C162501&loc=50316&lat=41.6099344&lng=-93.596457&" 
+FFXHospitalAndTotalRenalCareCompareGeneralTab: "#compare&cmpids=492626%2C492620&loc=22033&lat=38.8735614&lng=-77.3898602&1"
+SManhattanDialysisCenterProfilefromComparePage: "#profile&cmpids=332607%2C332530%2C333524&pid=332530&loc=10013&lat=40.7217861&lng=-74.0094471&previouspage=compare&"
+LeesburgcompareresultsGeneralinformation: "#compare&cmpids=492672%2C492654%2C492541&loc=20176&lat=39.2079214&lng=-77.5390127&"
+LeesburgcompareresultsBestPractices: "#compare&cmpids=492672%2C492654%2C492541&loc=20176&lat=39.2079214&lng=-77.5390127&"
+FairfaxVACompare: "#compare&cmpids=492626%2C492615%2C492620&loc=22033&lat=38.8735614&lng=-77.3898602&"
+VAComparepage: "#compare&cmpids=492635%2C492505%2C492594&loc=VIRGINIA&state=VA&"
+OrlandoFlCompare: "#compare&cmpids=102505%2C102623%2C102772&loc=ORLANDO%2C%20FL&lat=28.5383355&lng=-81.3792365&"
+MBPlampcompareGItab: "#compare&cmpids=492654%2C492672%2C492541&loc=20176&lat=39.2079214&lng=-77.5390127&guid=12345&cmprTab=0&"
+MBPlampcompareBTPtab: "#compare&cmpids=492654%2C492672%2C492541&loc=20176&lat=39.2079214&lng=-77.5390127&guid=12345&cmprTab=1&"
+MBPlampcompareHnDtab: "#compare&cmpids=492654%2C492672%2C492541&loc=20176&lat=39.2079214&lng=-77.5390127&guid=12345&cmprTab=2&"
+
+
+#Profile Pages
+AbornDialysisCenterProfile: "#profile&pid=552643&loc=CALIFORNIA&state=CA&previouspage=results&"
+AtlantisAguadillaDialysisProfile: "#profile&pid=402519&loc=puerto%20rico&state=pr&"
+BayHealthMedicalCenterProfilebyZipCode: "#profile&pid=080004&loc=19963&lat=38.9340074&lng=-75.3878525&"
+BayHealthMedicalCenterProfilebyCityState: "#profile&pid=080004&loc=MILFORD%2C%20DE&lat=38.9126129&lng=-75.4279748&"
+BayHealthMedicalCenterProfilebyState: "#profile&pid=080004&loc=DELAWARE&state=DE&"
+CapitolDialysisProfile: "#profile&pid=092521&loc=20001&lat=38.912068&lng=-77.0190228&previouspage=results&"
+ChinaTownDialysisProfile: "#profile&pid=332607&loc=10013&lat=40.7217861&lng=-74.0094471&previouspage=results&"
+ChinatownDialysisSingleCompare: "#profile&pid=332607&loc=10013&lat=40.7217861&lng=-74.0094471&"
+DavitaLoganSquareProfilefromComparePage: "#profile&cmpids=142534%2C142529%2C142604&pid=142534&loc=CHICAGO%2C%20IL&lat=41.8781136&lng=-87.6297982&previouspage=compare&"
+DCIAtlantaHomeDialysisProfile: "#profile&pid=112677&loc=atlanta%2c%20ga&lat=33.7489954&lng=-84.3879824&"
+DenaliDialysisCenterProfile: "#profile&pid=022509&loc=ALASKA&state=AK&previouspage=results&"
+EastDesMoinesDialysisProfilefromComparePage: "#profile&pid=162533&cmprID=162533%2C162532&stsltd=IA&loc=50316&lat=41.6099344&lng=-93.596457&cmprTab=0"
+HuntingtonParkDialysisProfile: "#profile&pid=552667&loc=90001&lat=33.9697897&lng=-118.2468148&previouspage=results&profTab=0&"
+MagicCityDialysisProfile: "#profile&pid=012645&loc=BIRMINGHAM%2C%20AL&lat=33.5206608&lng=-86.80249&previouspage=results&" 
+LeesburgVADFCProfile: "#profile&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&"
+AdvancedDCPotomac: "#profile&cmpids=492635%2C492505%2C492594&pid=492635&loc=VIRGINIA&state=VA&previouspage=results&"
+MBPlampprofileGItab: "#profile&cmpids=492654%2C492672%2C492541&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&guid=12345&cmprTab=2&profTab=0&"
+MBPlampprofileBTPtab: "#profile&cmpids=492654%2C492672%2C492541&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&guid=12345&cmprTab=2&profTab=1&"
+MBPlampprofileHnDtab: "#profile&cmpids=492654%2C492672%2C492541&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&guid=12345&cmprTab=2&profTab=2&"
+
+
+#Map and Directions Pages
+DCIAtlantaHomeDialysisMapandDirections: "#mapanddirections&pid=112677"
+CarmelMountainDialysisMapandDirections: "#mapanddirections&pid=552515"
+WilshireDialysisCenterMapandDirections: "#mapanddirections&pid=052631"
+
+#Star ratings lape
+learnmoreaboutstarratingspage: "#about/Overall-star-ratings"
+
+#Print Preview
+Printpreview: "#printallresults&results&type=ZIP&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12|ASC&dist=0&paging=1&"
+
+
+#Best Practice Data Pages
+AnchorageComparePage: "#compare&cmpids=022500%2C022509%2C022506&loc=99508&lat=61.1995461&lng=-149.823974&"
+AnchorageComparePageBestPractice: "#compare&cmpids=022500%2C022509%2C022506&loc=99508&lat=61.1995461&lng=-149.823974&previouspage=results&cmprTab=1&"
+AnchorageComparePageHospitalizationDeath: "#compare&cmpids=022500%2C022509%2C022506&loc=99508&lat=61.1995461&lng=-149.823974&previouspage=results&cmprTab=2&"
+FCMAnchorageProfilePage: "#profile&cmpids=022500%2C022509%2C022506&pid=022500&loc=99508&lat=61.1995461&lng=-149.823974&previouspage=results&"
+FCMAnchorageProfilePageHospitalizationDeath: "#profile&cmpids=022500%2C022509%2C022506&pid=022500&loc=99508&lat=61.1995461&lng=-149.823974&sort=12%7CASC&dist=0&previouspage=results&cmprTab=1&profTab=2&"
+FCMAnchorageProfilePageBestPractices: "#profile&cmpids=022500%2C022509%2C022506&pid=022500&loc=99508&lat=61.1995461&lng=-149.823974&sort=12%7CASC&dist=0&previouspage=results&cmprTab=1&profTab=1&"
+#MBP Pages
+Mymedicarehome: "https://www.mymedicare.gov/"
+Dashboard: "https://mymedicare.gov/dashboard.aspx"
+
+#Static Pages
+QIPStatic: "QIP/Quality-Incentive-Program.html"
