@@ -28,6 +28,12 @@ StartNewSearch: "#search"
 #Resources: 
 #Help: 
 
+Physician: "http://medicare.gov/physiciancompare/search.html"
+PlanFinder: "http://medicare.gov/find-a-plan/questions/medigap-home.aspx/"
+PlanFinder2: "http://medicare-iterationb1-test.cgifederal.com/find-a-plan/questions/home.aspx"
+CWSLampDev: "http://medicare-lampdev.cgifederal.com/dialysisfacilitycompare/"
+
+
 DFCCompare: "http://medicare-lampdev.cgifederal.com/dialysisfacilitycompare/"
 
 #Results Pages
@@ -80,7 +86,7 @@ WilshireDialysisCenter: "#profile&pid=052631&loc=LOS%20ANGELES%2C%20CA&lat=34.05
 ZahlNDResults: "#results&type=cs&loc=zahl%2c%20nd&lat=48.5733612&lng=-103.6921433&sort=12%7casc&dist=0&paging=1&"
 Page2map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=50&paging=1&"
 Page3map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=50&paging=1&"
-FairfaxVAResults: "#results&type=CS&loc=FAIRFAX%2C%20VA&lat=38.8462236&lng=-77.3063733&sort=12%7CASC&dist=0&paging=1&"
+FairfaxVAResults: "http://medicare-lampdev.cgifederal.com/dialysisfacilitycompare/#results&type=CS&loc=FAIRFAX%2C%20VA&lat=38.8462236&lng=-77.3063733&sort=12%7CASC&dist=0&paging=1&"
 Page2map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=2&"
 Page3map: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=3&"
 LastpageMapView: "#results&type=ZIP&viewmaps=true&loc=20176&lat=39.2079214&lng=-77.5390127&sort=12%7CASC&dist=0&paging=5&"

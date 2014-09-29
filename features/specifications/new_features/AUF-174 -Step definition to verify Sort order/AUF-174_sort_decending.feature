@@ -3,7 +3,7 @@ Feature:
 
  Scenario: Validating text that contains numbers
  
- Given I am on the "home" page
+ Given I am on the "PlanFinder" page
  And I enter "20171" in the "ZIP Code:" field
  And I click the "Continue" button
  And I select "Estimated Annual Cost"ctl00_ctl00_ctl00_MCGMainContentPlaceHolder_ToolContentPlaceHolder_PlanFinderContentPlaceHolder_MedigapChooserTabContainer_MedigapChooserPoliciesTab_sortList"

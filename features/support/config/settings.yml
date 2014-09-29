@@ -6,7 +6,7 @@
 
 ---
 DEFAULT_DATE_FORMAT: mm/dd/yyyy # Supports any combination of mm, dd, yyyy or yy Set a default format for date helpers to be used in expressions like "Today's Date" in the framework..
-DEFAULT_ENVIRONMENT: PlanFinder #The default environment tests will be run against when none is supplied
+DEFAULT_ENVIRONMENT: TestEnv #The default environment tests will be run against when none is supplied
 MAX_WAIT_TIME: 20 #seconds. When a test fails because of a potential issue with DOM loading, the framework will retry running the test for this much time. If your application is slow, feel free to increase this time and see if it reduces failures. 
 WAIT_FOR_PAGE_LOAD: 15 #seconds. No. of seconds to wait after an expected redirect
 MIN_WAIT_TIME: 10  #seconds. Used when validating absence of a DOM element, typically this is shorter than the default wait time, since we don't want to wait too long for elements we are not expecting will be present
