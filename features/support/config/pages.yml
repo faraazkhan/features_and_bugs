@@ -142,10 +142,14 @@ MBPlampprofileBTPtab: "#profile&cmpids=492654%2C492672%2C492541&pid=492654&loc=2
 MBPlampprofileHnDtab: "#profile&cmpids=492654%2C492672%2C492541&pid=492654&loc=20176&lat=39.2079214&lng=-77.5390127&previouspage=results&guid=12345&cmprTab=2&profTab=2&"
 
 
+
 #Map and Directions Pages
 DCIAtlantaHomeDialysisMapandDirections: "#mapanddirections&pid=112677"
 CarmelMountainDialysisMapandDirections: "#mapanddirections&pid=552515"
 WilshireDialysisCenterMapandDirections: "#mapanddirections&pid=052631"
+71937IndividualResultsPage: "http://hioshc-lampdev.cgifederal.com/#planresults&zp=71937&ct=05113%2CPOLK%2CAR&cd=11%2F01%2F2014&pg=Female&pd=11%2F11%2F1987&ptu=Non-Smoker&srt=BASE%20RATE%2CASC&page=1&&dpr0=&dplp0=&dpg0=&dpd0=&dptu0=&dplu0=&"
+plansQuestionnaire: "http://hioshc-lampdev.cgifederal.com/#plansearch&lang=en"
+
 
 #Star ratings lape
 learnmoreaboutstarratingspage: "#about/Overall-star-ratings"
