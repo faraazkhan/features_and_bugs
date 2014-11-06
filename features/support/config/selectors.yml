@@ -173,4 +173,5 @@ MedicareGovFooter:
   FooterColumn2: "css:.col-md-6 push-down border-right"
   FooterColumn3: "css:.col-md-5 push-down border-right"
   FooterColumn4: "css:.col-md-7 push-down"
+PageLinks: "css: a"
   

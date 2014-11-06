@@ -171,3 +171,7 @@ Dashboard: "https://mymedicare.gov/dashboard.aspx"
 
 #Static Pages
 QIPStatic: "QIP/Quality-Incentive-Program.html"
+
+# Open Payments Portal
+OpenPaymentsPortal: "http://ffx-op-app4:10039/wps/portal"
+AM_GPO: "http://ffx-op-app4:10039/wps/poc?uri=deeplink2:link2&EIDMUseridByURL=FinalAMtest"
